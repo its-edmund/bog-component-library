@@ -10,8 +10,10 @@ export interface Props extends HTMLAttributes<HTMLDivElement> {
 /**
  * A custom Thing component. Neat!
  */
-export const Thing: FC<Props> = ({ children }) => {
+export const Button: FC<Props> = ({ children }) => {
   return (
-    <button className="bg-midnight-300 px-4 py-2 text-white">Button</button>
+    <button className="bg-midnight-300 px-4 py-2 text-white rounded-[4px] font-bold transition-colors hover:bg-midnight-200">
+      Button
+    </button>
   );
 };
