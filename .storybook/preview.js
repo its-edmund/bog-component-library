@@ -1,3 +1,4 @@
+import 'tailwindcss/tailwind.css';
 import '../tailwind.css';
 
 // https://storybook.js.org/docs/react/writing-stories/parameters#global-parameters
