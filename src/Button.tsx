@@ -32,7 +32,7 @@ export const Button: FC<ButtonProps> = ({
   return (
     <button
       className={classNames(
-        'rounded-[4px] font-bold transition-colors',
+        'rounded-[4px] font-bold transition-colors disabled:cursor-not-allowed',
         sizes[size],
         variants[variant]
       )}
