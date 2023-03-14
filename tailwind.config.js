@@ -1,4 +1,5 @@
 module.exports = {
+  content: ['./src/**/*.{js,ts,jsx,tsx}', './stories/**/*.{js,ts,jsx,tsx}'],
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './stories/*'],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -102,6 +103,7 @@ module.exports = {
         green: {
           900: '#084c29',
           800: '#0f904d',
+          600: '#17d874',
           400: '#53ed9d',
           300: '#77f0b1',
           200: '#9bf4c6',
